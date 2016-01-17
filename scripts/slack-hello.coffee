@@ -4,11 +4,11 @@ module.exports = (robot) ->
     username = msg.message.user.name
     msg.send "Hello, " + username + "! my name is anrakubot"
     
-  robot.hear /‰^¨/i (msg) ->
+  robot.hear /é‹å‹¢/i (msg) ->
     fortunes = [
-      '‘å‹g',
-      '––‹g',
-      '‘å‹¥'
+      'å¤§å‰',
+      'æœ«å‰',
+      'å¤§å‡¶'
     ]
     result = fortunes[random(3)]
-    msg.send "‚ ‚È‚½‚Ì‰^¨‚Í#{result}‚Å‚·I"
+    msg.send "ã‚ãªãŸã®é‹å‹¢ã¯#{result}ã§ã™ï¼"
